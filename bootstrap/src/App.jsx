@@ -6,6 +6,7 @@ import Images from './components/Images'
 import Test from './components/Test'
 import Footer from './components/Footer'
 import Actions from './components/Actions'
+import img1 from "./assets/img/bg-showcase-1.jpg"
 
 function App() {
   let icon = [
@@ -28,7 +29,7 @@ function App() {
 
   let showcase = [
     {
-      img: 'src/assets/img/bg-showcase-1.jpg',
+      img: img1,
       class: "col-lg-6 order-lg-2 text-white showcase-img",
       h2: "Fully Responsive Design",
       para: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
