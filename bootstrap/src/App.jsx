@@ -7,6 +7,11 @@ import Test from './components/Test'
 import Footer from './components/Footer'
 import Actions from './components/Actions'
 import img1 from "./assets/img/bg-showcase-1.jpg"
+import img2 from "./assets/img/bg-showcase-2.jpg"
+import img3 from "./assets/img/bg-showcase-3.jpg"
+import img4 from "./assets/img/testimonials-1.jpg"
+import img5 from "./assets/img/testimonials-2.jpg"
+import img6 from "./assets/img/testimonials-3.jpg"
 
 function App() {
   let icon = [
@@ -35,13 +40,13 @@ function App() {
       para: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
     },
     {
-      img: 'src/assets/img/bg-showcase-2.jpg',
+      img: img2,
       class: "col-lg-6 text-white showcase-img",
       h2: "Updated For Bootstrap 5",
       para: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
     },
     {
-      img: 'src/assets/img/bg-showcase-3.jpg',
+      img: img3,
       class: "col-lg-6 order-lg-2 text-white showcase-img",
       h2: "Easy to Use & Customize",
       para: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
@@ -50,17 +55,17 @@ function App() {
 
   let comments = [
     {
-      src: "src/assets/img/testimonials-1.jpg",
+      src: img4,
       h5: "Margaret E.",
       cmt: "This is fantastic! Thanks so much guys!"
     },
     {
-      src: "src/assets/img/testimonials-2.jpg",
+      src: img5,
       h5: "Fred S.",
       cmt: "Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
     },
     {
-      src: "src/assets/img/testimonials-3.jpg",
+      src: img6,
       h5: "Sarah W.",
       cmt: "Thanks so much for making these free resources available to us!"
     }
